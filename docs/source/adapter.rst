@@ -15,7 +15,16 @@ Introduce
 SSH Adapter
 ^^^^^^^^^^^^
 - method: POST
-- request sample: ::
+- request sample: 
 
-    curl -k -H "St2-Api-Key: Y2YyYWJkOGFkNDgxYTdiZDI0ZDdjNzU1NmE0NzA2ZWJiYTBlNTE5YmJlOTg1ODU0MzNmNjc3MzcxNDE0MDFhZA" -H "content-type: application/json" --data-binary '{"action": "core.remote", "parameters": {"username": "root", "password": "root", "cmd": "df -h", "hosts": "192.168.1.212"}}' https://192.168.1.212/api/executions 
-    
+.. code-block:: json 
+
+   {
+     "action":"core.remote",
+      "parameters":{
+      "username":"root",
+      "password":"root",
+      "cmd":"df -h",
+      "hosts":"192.168.1.212"
+     }
+   } 
