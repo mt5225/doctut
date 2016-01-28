@@ -2,7 +2,7 @@ Simple Documentation Tutorial: doctut
 ==================================
 
 A Header
-========
+=================
 There are some code to say something intresting. ::
 
     print "hello world!"
@@ -16,6 +16,7 @@ Guide
 
    license
    help
+   adapter
 
 
 
